@@ -13,7 +13,7 @@ def numberOfSteps(n):
         else: # иначе 
             n -= 1 # вычитаем из n 1 
             result += 1 # прибавляем к счетчику 1
-    return result # выводим результат 
+    return result # возвращаем результат 
 
 
 print(numberOfSteps(14))
